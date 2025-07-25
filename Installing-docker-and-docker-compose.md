@@ -36,5 +36,6 @@ sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 To verify that your Docker Compose installation was successful, you can use the following command:
-
+```
 docker-compose --version
+```
