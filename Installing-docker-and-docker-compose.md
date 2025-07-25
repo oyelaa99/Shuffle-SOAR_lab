@@ -29,9 +29,12 @@ sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 Step 4: Installing Docker Compose
 To install docker-compose tun the following commands:
-
+```
 sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```
+```
 sudo chmod +x /usr/local/bin/docker-compose
+```
 To verify that your Docker Compose installation was successful, you can use the following command:
 
 docker-compose --version
